@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/mathix420/nuxt-layer/compare/v1.1.0...v1.1.1) (2024-10-23)
+
+
+### Bug Fixes
+
+* **ci:** add BUN_AUTH_TOKEN env var to bun publish command ([e1d68e5](https://github.com/mathix420/nuxt-layer/commit/e1d68e511037b2917befc391da498bd7db3370d5))
+
 ## [1.1.0](https://github.com/mathix420/nuxt-layer/compare/v1.0.1...v1.1.0) (2024-10-23)
 
 
