@@ -4,6 +4,8 @@
 
 ```bash
 bun i @mathix420/nuxt-layer
+# or
+npm i @mathix420/nuxt-layer
 ```
 
 ```ts
@@ -12,6 +14,12 @@ export default defineNuxtConfig({
     '@mathix420/nuxt-layer',
   ]
 })
+```
+
+```ts
+bunx nuxi prepare
+# or
+npx nuxi prepare
 ```
 
 ### This layer will add the following modules:
