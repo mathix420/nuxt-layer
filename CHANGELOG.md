@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/mathix420/nuxt-layer/compare/v1.0.1...v1.1.0) (2024-10-23)
+
+
+### Features
+
+* use nuxt4 folder structure ([2215ee4](https://github.com/mathix420/nuxt-layer/commit/2215ee4046432832b19bff7585f04319c8805a3f))
+
 ## [1.0.1](https://github.com/mathix420/nuxt-layer/compare/v1.0.0...v1.0.1) (2024-10-23)
 
 
