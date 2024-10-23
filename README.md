@@ -53,7 +53,7 @@ bunx codemod@latest nuxt/4/migration-recipe
   - [Blank config](/tailwind.config.mjs)
 - [`@nuxt/icon`](https://nuxt.com/modules/icon)
 - [`@nuxt/eslint`](https://nuxt.com/modules/eslint)
-  - With [stilistic preferences](/nuxt.config.ts) and a [few rules](/eslint.config.mjs)
+  - With [stylistic preferences](/nuxt.config.ts) and a [few rules](/eslint.config.mjs)
 
 ## Setup
 
