@@ -16,7 +16,7 @@ export default defineNuxtConfig({
 })
 ```
 
-```ts
+```bash
 bunx nuxi prepare
 # or
 npx nuxi prepare
