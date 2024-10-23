@@ -2,12 +2,14 @@
 
 ## Get started
 
+Install the layer with your preferred package manager.
 ```bash
 bun i @mathix420/nuxt-layer
 # or
 npm i @mathix420/nuxt-layer
 ```
 
+Update your nuxt config to extend from this layer.
 ```ts
 export default defineNuxtConfig({
   extends: [
@@ -16,10 +18,27 @@ export default defineNuxtConfig({
 })
 ```
 
+Generate typings and init modules.
 ```bash
 bunx nuxi prepare
 # or
 npx nuxi prepare
+```
+
+Copy VS Code settings, be careful they'll be overwritten.
+```bash
+cp -r node_modules/@mathix420/nuxt-layer/.vscode .
+```
+
+Migrate to nuxt v4.
+```ts
+export default defineNuxtConfig({
+  future: { compatibilityVersion: 4 },
+})
+```
+
+```bash
+bunx codemod@latest nuxt/4/migration-recipe
 ```
 
 ### This layer will add the following modules:
