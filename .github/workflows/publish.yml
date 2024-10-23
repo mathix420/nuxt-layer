@@ -1,0 +1,18 @@
+name: Publish Package
+
+on:
+  release:
+    types: [ created, edited ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    if: '!github.event.release.prerelease'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: oven-sh/setup-bun@v2
+    - run: bun install
+    - run: bun publish --access public
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
