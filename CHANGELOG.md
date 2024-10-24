@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/mathix420/nuxt-layer/compare/v1.1.1...v1.2.0) (2024-10-24)
+
+
+### Features
+
+* add tailwindcss eslint plugin and add some tailwindcss plugins ([0600d6f](https://github.com/mathix420/nuxt-layer/commit/0600d6fc3dec2be094bdad9a61172d696ac59d72))
+
+
+### Bug Fixes
+
+* **docs:** wrong code syntax ([b3c3fed](https://github.com/mathix420/nuxt-layer/commit/b3c3fed06eb2a37e4d78cc57991229cac71e5166))
+
 ## [1.1.1](https://github.com/mathix420/nuxt-layer/compare/v1.1.0...v1.1.1) (2024-10-23)
 
 
