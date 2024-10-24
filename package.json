@@ -1,6 +1,6 @@
 {
   "name": "@mathix420/nuxt-layer",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "type": "module",
   "packageManager": "bun@1.1.32",
   "main": "./nuxt.config.ts",
