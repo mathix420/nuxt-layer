@@ -6,6 +6,7 @@
   "main": "./nuxt.config.ts",
   "files": [
     ".vscode/",
+    ".nuxt/",
     "app/",
     "nuxt.config.ts",
     "eslint.config.mjs",
