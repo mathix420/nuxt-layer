@@ -1,4 +1,4 @@
-# Personnal Nuxt Starter Layer
+# Opinionated Nuxt Starter Layer
 
 ## Get started
 
