@@ -1,2 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-export default {};
+export default {
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/aspect-ratio"),
+  ],
+};

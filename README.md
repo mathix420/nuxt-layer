@@ -1,4 +1,4 @@
-# Mathix Nuxt Layer
+# Personnal Nuxt Starter Layer
 
 ## Get started
 

@@ -1,4 +1,6 @@
 // @ts-check
+// @ts-ignore
+import tailwind from "eslint-plugin-tailwindcss";
 import withNuxt from "./.nuxt/eslint.config.mjs";
 
 export default withNuxt(
@@ -7,4 +9,5 @@ export default withNuxt(
       "vue/multi-word-component-names": "off",
     },
   },
+  ...tailwind.configs["flat/recommended"],
 );
