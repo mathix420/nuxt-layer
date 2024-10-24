@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/mathix420/nuxt-layer/compare/v1.2.1...v1.2.2) (2024-10-24)
+
+
+### Bug Fixes
+
+* **npm:** add .nuxt/ directory in package.json `files` ([f3147f3](https://github.com/mathix420/nuxt-layer/commit/f3147f3c48a19190566e3d7c6f0dd5da3c0c36ad))
+
 ## [1.2.1](https://github.com/mathix420/nuxt-layer/compare/v1.2.0...v1.2.1) (2024-10-24)
 
 
