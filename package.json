@@ -30,12 +30,10 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.9",
     "@tailwindcss/typography": "^0.5.15",
+    "eslint-plugin-tailwindcss": "^3.17.5",
     "nuxt": "^3.13.2",
     "nuxt-headlessui": "^1.2.0",
     "vue": "latest",
     "vue-router": "latest"
-  },
-  "devDependencies": {
-    "eslint-plugin-tailwindcss": "^3.17.5"
   }
 }
