@@ -25,6 +25,23 @@ bunx nuxi prepare
 npx nuxi prepare
 ```
 
+Load eslint presets.
+```bash
+# may not be needed anymore
+bun pm trust @mathix420/nuxt-layer
+```
+```js
+// eslint.config.mjs
+// @ts-check
+// @ts-ignore
+import cfg from "@mathix420/nuxt-layer/eslint.config.mjs";
+import withNuxt from "./.nuxt/eslint.config.mjs";
+
+export default withNuxt(
+  cfg,
+);
+```
+
 Copy VS Code settings, be careful they'll be overwritten.
 ```bash
 cp -r node_modules/@mathix420/nuxt-layer/.vscode .
@@ -54,6 +71,7 @@ bunx codemod@latest nuxt/4/migration-recipe
 - [`@nuxt/icon`](https://nuxt.com/modules/icon)
 - [`@nuxt/eslint`](https://nuxt.com/modules/eslint)
   - With [stylistic preferences](/nuxt.config.ts) and a [few rules](/eslint.config.mjs)
+  - With [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 
 ## Setup
 
