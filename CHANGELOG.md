@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/mathix420/nuxt-layer/compare/v1.2.0...v1.2.1) (2024-10-24)
+
+
+### Bug Fixes
+
+* imports in package.json ([f17db69](https://github.com/mathix420/nuxt-layer/commit/f17db69bcf1e848b6b369925557473bea41647ef))
+
 ## [1.2.0](https://github.com/mathix420/nuxt-layer/compare/v1.1.1...v1.2.0) (2024-10-24)
 
 
