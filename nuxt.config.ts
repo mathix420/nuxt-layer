@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   modules: [
     "@nuxt/content",
+    "@nuxtjs/mdc",
     "@nuxt/scripts",
     "@nuxtjs/seo",
     "@nuxt/fonts",

@@ -3,6 +3,7 @@
 > Quickly start your Nuxt project with the best modules and tooling.
 
 - [`@nuxt/content`](https://nuxt.com/modules/content)
+- [`@nuxtjs/mdc`](https://nuxt.com/modules/mdc)
 - [`@nuxt/scripts`](https://nuxt.com/modules/scripts)
 - [`@nuxtjs/seo`](https://nuxt.com/modules/seo)
 - [`@nuxt/fonts`](https://nuxt.com/modules/fonts)
