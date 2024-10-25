@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/mathix420/nuxt-layer/compare/v1.2.2...v1.3.0) (2024-10-25)
+
+
+### Features
+
+* Add @nuxtjs/mdc module ([6747b49](https://github.com/mathix420/nuxt-layer/commit/6747b49058db705917805ceb1beacb993a7ace9e))
+* Enable zero-runtime option for ogImage by default ([112e9ad](https://github.com/mathix420/nuxt-layer/commit/112e9ad7ef71e63e54d867ba5aec881a827725ed))
+
 ## [1.2.2](https://github.com/mathix420/nuxt-layer/compare/v1.2.1...v1.2.2) (2024-10-24)
 
 
