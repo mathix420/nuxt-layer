@@ -1,5 +1,20 @@
 # Opinionated Nuxt Starter Layer
 
+> Quickly start your Nuxt project with the best modules and tooling.
+
+- [`@nuxt/content`](https://nuxt.com/modules/content)
+- [`@nuxt/scripts`](https://nuxt.com/modules/scripts)
+- [`@nuxtjs/seo`](https://nuxt.com/modules/seo)
+- [`@nuxt/fonts`](https://nuxt.com/modules/fonts)
+- [`@nuxt/image`](https://nuxt.com/modules/image)
+- [`nuxt-headlessui`](https://nuxt.com/modules/headlessui)
+- [`@nuxtjs/tailwindcss`](https://nuxt.com/modules/tailwindcss)
+  - [Blank config](/tailwind.config.mjs)
+- [`@nuxt/icon`](https://nuxt.com/modules/icon)
+- [`@nuxt/eslint`](https://nuxt.com/modules/eslint)
+  - With [stylistic preferences](/nuxt.config.ts) and a [few rules](/eslint.config.mjs)
+  - With [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
+
 ## Get started
 
 Install the layer with your preferred package manager.
@@ -58,22 +73,9 @@ export default defineNuxtConfig({
 bunx codemod@latest nuxt/4/migration-recipe
 ```
 
-### This layer will add the following modules:
+## Dev
 
-- [`@nuxt/content`](https://nuxt.com/modules/content)
-- [`@nuxt/scripts`](https://nuxt.com/modules/scripts)
-- [`@nuxtjs/seo`](https://nuxt.com/modules/seo)
-- [`@nuxt/fonts`](https://nuxt.com/modules/fonts)
-- [`@nuxt/image`](https://nuxt.com/modules/image)
-- [`nuxt-headlessui`](https://nuxt.com/modules/headlessui)
-- [`@nuxtjs/tailwindcss`](https://nuxt.com/modules/tailwindcss)
-  - [Blank config](/tailwind.config.mjs)
-- [`@nuxt/icon`](https://nuxt.com/modules/icon)
-- [`@nuxt/eslint`](https://nuxt.com/modules/eslint)
-  - With [stylistic preferences](/nuxt.config.ts) and a [few rules](/eslint.config.mjs)
-  - With [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
-
-## Setup
+### Setup
 
 Make sure to install dependencies:
 
@@ -81,7 +83,7 @@ Make sure to install dependencies:
 bun install
 ```
 
-## Development Server
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
@@ -89,24 +91,10 @@ Start the development server on `http://localhost:3000`:
 bun run dev
 ```
 
-## Upgrade deps
+### Upgrade deps
 
 ```bash
 bunx npm-check-updates -i --format group
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Check out the [Nuxt layer documentation](https://nuxt.com/docs/getting-started/layers) for more information.
