@@ -17,7 +17,7 @@
 
 ## Get started
 
-Install the layer with your preferred package manager.
+### Install the layer with your preferred package manager.
 ```bash
 bun i @mathix420/nuxt-layer
 # or
@@ -33,14 +33,14 @@ export default defineNuxtConfig({
 })
 ```
 
-Generate typings and init modules.
+### Generate typings and init modules.
 ```bash
 bunx nuxi prepare
 # or
 npx nuxi prepare
 ```
 
-Load eslint presets.
+### Load eslint presets.
 ```bash
 # may not be needed anymore
 bun pm trust @mathix420/nuxt-layer
@@ -57,12 +57,12 @@ export default withNuxt(
 );
 ```
 
-Copy VS Code settings, be careful they'll be overwritten.
+### Copy VS Code settings, be careful they'll be overwritten.
 ```bash
 cp -r node_modules/@mathix420/nuxt-layer/.vscode .
 ```
 
-Migrate to nuxt v4.
+### Migrate to nuxt v4.
 ```ts
 export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
@@ -71,6 +71,18 @@ export default defineNuxtConfig({
 
 ```bash
 bunx codemod@latest nuxt/4/migration-recipe
+```
+
+### Setup renovate
+
+`renovate.json`:
+```json
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "github>mathix420/nuxt-layer"
+    ]
+}
 ```
 
 ## Dev
