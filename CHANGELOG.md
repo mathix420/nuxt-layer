@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/mathix420/nuxt-layer/compare/v1.3.0...v1.4.0) (2024-11-02)
+
+
+### Features
+
+* Add tailwindcss plugin tailwind-scrollbar-hide ([f7fafa9](https://github.com/mathix420/nuxt-layer/commit/f7fafa931f12f889c0d82c82e5a4247f047c24f8))
+
 ## [1.3.0](https://github.com/mathix420/nuxt-layer/compare/v1.2.2...v1.3.0) (2024-10-25)
 
 
