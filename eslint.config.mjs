@@ -7,6 +7,9 @@ export default withNuxt(
   {
     rules: {
       "vue/multi-word-component-names": "off",
+      "tailwindcss/no-custom-classname": ["warn", {
+        whitelist: ["scrollbar-hide", "scrollbar-default"],
+      }],
     },
   },
   ...tailwind.configs["flat/recommended"],

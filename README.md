@@ -11,6 +11,11 @@
 - [`nuxt-headlessui`](https://nuxt.com/modules/headlessui)
 - [`@nuxtjs/tailwindcss`](https://nuxt.com/modules/tailwindcss)
   - [Blank config](/tailwind.config.mjs)
+  - With Plugins:
+    - [@tailwindcss/typography](https://github.com/tailwindlabs/tailwindcss-typography)
+    - [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
+    - [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio)
+    - [tailwind-scrollbar-hide](https://github.com/reslear/tailwind-scrollbar-hide)
 - [`@nuxt/icon`](https://nuxt.com/modules/icon)
 - [`@nuxt/eslint`](https://nuxt.com/modules/eslint)
   - With [stylistic preferences](/nuxt.config.ts) and a [few rules](/eslint.config.mjs)
