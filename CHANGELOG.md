@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/mathix420/nuxt-layer/compare/v1.4.0...v1.4.1) (2024-11-15)
+
+
+### Bug Fixes
+
+* Override ajv to v8 & upgrade other deps ([326d080](https://github.com/mathix420/nuxt-layer/commit/326d0808b518533cc2fe82f1078d1c4034d5a9e9))
+
 ## [1.4.0](https://github.com/mathix420/nuxt-layer/compare/v1.3.0...v1.4.0) (2024-11-02)
 
 
