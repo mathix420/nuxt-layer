@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/mathix420/nuxt-layer/compare/v1.4.1...v1.4.2) (2024-11-25)
+
+
+### Reverts
+
+* override of ajv ([fa49aca](https://github.com/mathix420/nuxt-layer/commit/fa49aca6c577b96bf4eca94c49a1c8e454e600c4))
+
 ## [1.4.1](https://github.com/mathix420/nuxt-layer/compare/v1.4.0...v1.4.1) (2024-11-15)
 
 
