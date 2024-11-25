@@ -10,7 +10,7 @@
 - [`@nuxt/image`](https://nuxt.com/modules/image)
 - [`nuxt-headlessui`](https://nuxt.com/modules/headlessui)
 - [`@nuxtjs/tailwindcss`](https://nuxt.com/modules/tailwindcss)
-  - [Blank config](/tailwind.config.mjs)
+  - [Blank config](/tailwind.config.cjs)
   - With Plugins:
     - [@tailwindcss/typography](https://github.com/tailwindlabs/tailwindcss-typography)
     - [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms)
@@ -106,7 +106,7 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-bun run dev
+bun dev
 ```
 
 ### Upgrade deps
