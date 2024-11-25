@@ -19,9 +19,6 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "overrides": {
-    "ajv": "^8.17.1"
-  },
   "dependencies": {
     "@nuxt/content": "^2.13.4",
     "@nuxt/eslint": "^0.6.1",
