@@ -1,7 +1,6 @@
 {
   "name": "@mathix420/nuxt-layer",
   "version": "1.4.1",
-  "type": "module",
   "packageManager": "bun@1.1.36",
   "main": "./nuxt.config.ts",
   "files": [
@@ -10,7 +9,7 @@
     "app/",
     "nuxt.config.ts",
     "eslint.config.mjs",
-    "tailwind.config.mjs"
+    "tailwind.config.cjs"
   ],
   "scripts": {
     "build": "nuxt build",
