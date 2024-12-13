@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/mathix420/nuxt-layer/compare/v1.4.2...v1.4.3) (2024-12-13)
+
+
+### Bug Fixes
+
+* standardize quotes in README example for consistency ([95b68e7](https://github.com/mathix420/nuxt-layer/commit/95b68e7fdc29ecb9f91d820cb6093f72bd3f3666))
+
 ## [1.4.2](https://github.com/mathix420/nuxt-layer/compare/v1.4.1...v1.4.2) (2024-11-25)
 
 
