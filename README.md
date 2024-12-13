@@ -34,7 +34,7 @@ Update your nuxt config to extend from this layer.
 ```ts
 export default defineNuxtConfig({
   extends: [
-    '@mathix420/nuxt-layer',
+    "@mathix420/nuxt-layer",
   ]
 })
 ```
