@@ -1,5 +1,37 @@
 # Changelog
 
+## [2.0.0](https://github.com/mathix420/nuxt-layer/compare/v1.4.2...v2.0.0) (2024-12-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* first version
+
+### Features
+
+* Add @nuxtjs/mdc module ([6747b49](https://github.com/mathix420/nuxt-layer/commit/6747b49058db705917805ceb1beacb993a7ace9e))
+* add tailwindcss eslint plugin and add some tailwindcss plugins ([0600d6f](https://github.com/mathix420/nuxt-layer/commit/0600d6fc3dec2be094bdad9a61172d696ac59d72))
+* Add tailwindcss plugin tailwind-scrollbar-hide ([f7fafa9](https://github.com/mathix420/nuxt-layer/commit/f7fafa931f12f889c0d82c82e5a4247f047c24f8))
+* Enable zero-runtime option for ogImage by default ([112e9ad](https://github.com/mathix420/nuxt-layer/commit/112e9ad7ef71e63e54d867ba5aec881a827725ed))
+* first version ([e0e2bab](https://github.com/mathix420/nuxt-layer/commit/e0e2bab48019914e0723b00c4424f5a3af5efa90))
+* use nuxt4 folder structure ([2215ee4](https://github.com/mathix420/nuxt-layer/commit/2215ee4046432832b19bff7585f04319c8805a3f))
+
+
+### Bug Fixes
+
+* **ci:** add BUN_AUTH_TOKEN env var to bun publish command ([e1d68e5](https://github.com/mathix420/nuxt-layer/commit/e1d68e511037b2917befc391da498bd7db3370d5))
+* **ci:** added bunfig.toml file ([4635e99](https://github.com/mathix420/nuxt-layer/commit/4635e997b3b7fc7208e51b640a8aab58bae287e8))
+* **ci:** added fine grained github token instead of default GITHUB_TOKEN ([9ae63d4](https://github.com/mathix420/nuxt-layer/commit/9ae63d4b9b14a52541b3ae8817406b067254f85c))
+* **docs:** wrong code syntax ([b3c3fed](https://github.com/mathix420/nuxt-layer/commit/b3c3fed06eb2a37e4d78cc57991229cac71e5166))
+* imports in package.json ([f17db69](https://github.com/mathix420/nuxt-layer/commit/f17db69bcf1e848b6b369925557473bea41647ef))
+* **npm:** add .nuxt/ directory in package.json `files` ([f3147f3](https://github.com/mathix420/nuxt-layer/commit/f3147f3c48a19190566e3d7c6f0dd5da3c0c36ad))
+* Override ajv to v8 & upgrade other deps ([326d080](https://github.com/mathix420/nuxt-layer/commit/326d0808b518533cc2fe82f1078d1c4034d5a9e9))
+
+
+### Reverts
+
+* override of ajv ([fa49aca](https://github.com/mathix420/nuxt-layer/commit/fa49aca6c577b96bf4eca94c49a1c8e454e600c4))
+
 ## [1.4.2](https://github.com/mathix420/nuxt-layer/compare/v1.4.1...v1.4.2) (2024-11-25)
 
 
