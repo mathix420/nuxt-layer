@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/mathix420/nuxt-layer/compare/v1.4.3...v1.4.4) (2025-01-28)
+
+
+### Bug Fixes
+
+* remove release please manifest ([74bf50c](https://github.com/mathix420/nuxt-layer/commit/74bf50ca2e837842f2a0e711bdcf635b1073dd61))
+
 ## [1.4.3](https://github.com/mathix420/nuxt-layer/compare/v1.4.2...v1.4.3) (2024-12-13)
 
 
