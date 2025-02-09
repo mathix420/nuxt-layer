@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/mathix420/nuxt-layer/compare/v2.0.0...v2.0.1) (2025-02-09)
+
+
+### Bug Fixes
+
+* update tailwind CSS config file path in VSCode settings ([84143df](https://github.com/mathix420/nuxt-layer/commit/84143dfc9bba005e09aff04159a51ef6a781e7a4))
+
 ## [2.0.0](https://github.com/mathix420/nuxt-layer/compare/v1.4.5...v2.0.0) (2025-02-09)
 
 
