@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.5](https://github.com/mathix420/nuxt-layer/compare/v1.4.4...v1.4.5) (2025-02-09)
+
+
+### Bug Fixes
+
+* put @nuxtjs/seo on top of the modules ([9132723](https://github.com/mathix420/nuxt-layer/commit/91327235ad2b384cca40809d4c5bd2430c83d3c4))
+
 ## [1.4.4](https://github.com/mathix420/nuxt-layer/compare/v1.4.3...v1.4.4) (2025-01-28)
 
 
