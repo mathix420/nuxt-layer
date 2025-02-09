@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/mathix420/nuxt-layer/compare/v1.4.5...v2.0.0) (2025-02-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop legacy eslint configs, requires ESLint v9 and ESM
+
+### Features
+
+* drop legacy eslint configs, requires ESLint v9 and ESM ([470d3b6](https://github.com/mathix420/nuxt-layer/commit/470d3b6da95715c58aaf257b09babe2b767129bc))
+
 ## [1.4.5](https://github.com/mathix420/nuxt-layer/compare/v1.4.4...v1.4.5) (2025-02-09)
 
 
