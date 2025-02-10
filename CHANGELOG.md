@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/mathix420/nuxt-layer/compare/v3.0.0...v3.0.1) (2025-02-10)
+
+
+### Bug Fixes
+
+* update node version ([d52ef8e](https://github.com/mathix420/nuxt-layer/commit/d52ef8e83275e833e53f0ea33d4f04ee4f466b4a))
+
 ## [3.0.0](https://github.com/mathix420/nuxt-layer/compare/v2.0.1...v3.0.0) (2025-02-10)
 
 
