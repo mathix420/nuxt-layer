@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/mathix420/nuxt-layer/compare/v2.0.1...v3.0.0) (2025-02-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove unused @nuxtjs/mdc module and update package.json structure
+
+### Bug Fixes
+
+* remove unused @nuxtjs/mdc module and update package.json structure ([4d7f0be](https://github.com/mathix420/nuxt-layer/commit/4d7f0bebb3670cf2e1709ab13e7ef0d85795aec0))
+
 ## [2.0.1](https://github.com/mathix420/nuxt-layer/compare/v2.0.0...v2.0.1) (2025-02-09)
 
 
