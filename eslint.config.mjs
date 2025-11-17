@@ -1,16 +1,28 @@
 // @ts-check
 // @ts-ignore
-import tailwind from "eslint-plugin-tailwindcss";
+import betterTailwindcss from "eslint-plugin-better-tailwindcss";
 import withNuxt from "./.nuxt/eslint.config.mjs";
+
+const recommendedBetterTailwindcssRules = betterTailwindcss.configs?.recommended?.rules ?? {};
+const recommendedNoUnregistered
+  = recommendedBetterTailwindcssRules["better-tailwindcss/no-unregistered-classes"] ?? "error";
 
 export default withNuxt(
   {
+    settings: {
+      "better-tailwindcss": {
+        tailwindConfig: "tailwind.config.cjs",
+      },
+    },
+    plugins: {
+      "better-tailwindcss": betterTailwindcss,
+    },
     rules: {
       "vue/multi-word-component-names": "off",
-      "tailwindcss/no-custom-classname": ["warn", {
-        whitelist: ["scrollbar-hide", "scrollbar-default"],
+      ...recommendedBetterTailwindcssRules,
+      "better-tailwindcss/no-unregistered-classes": [recommendedNoUnregistered, {
+        ignore: ["scrollbar-hide", "scrollbar-default"],
       }],
     },
   },
-  ...tailwind.configs["flat/recommended"],
 );

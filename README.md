@@ -18,7 +18,7 @@
 - [`@nuxt/icon`](https://nuxt.com/modules/icon)
 - [`@nuxt/eslint`](https://nuxt.com/modules/eslint)
   - With [stylistic preferences](/nuxt.config.ts) and a [few rules](/eslint.config.mjs)
-  - With [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
+  - With [eslint-plugin-better-tailwindcss](https://github.com/schoero/eslint-plugin-better-tailwindcss)
 
 ## Nuxt Image v2 upgrade
 
