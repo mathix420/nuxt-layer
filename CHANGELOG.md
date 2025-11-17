@@ -11,6 +11,13 @@
 * document how this layer benefits from @nuxt/image v2, with examples for defining providers and restoring custom screen maps
 * outline the recommended `nuxt upgrade` + codemod workflow for migrating projects to Nuxt 4
 
+## [3.1.0](https://github.com/mathix420/nuxt-layer/compare/v3.0.1...v3.1.0) (2025-11-17)
+
+
+### Features
+
+* update Nuxt configuration and dependencies for version 4.0.0 ([eeaeb43](https://github.com/mathix420/nuxt-layer/commit/eeaeb43ef0b55b2b1caa3bce3156edef44f07c04))
+
 ## [4.0.0](https://github.com/mathix420/nuxt-layer/compare/v3.0.0...v4.0.0) (2025-11-17)
 
 
