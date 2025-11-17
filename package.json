@@ -1,6 +1,6 @@
 {
   "name": "@mathix420/nuxt-layer",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "type": "module",
   "packageManager": "bun@1.2.2",
   "main": "./nuxt.config.ts",
@@ -20,23 +20,23 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/content": "^3.1.0",
-    "@nuxt/eslint": "^1.0.1",
-    "@nuxt/fonts": "^0.10.3",
-    "@nuxt/icon": "^1.10.3",
-    "@nuxt/image": "^1.9.0",
-    "@nuxt/scripts": "^0.10.1",
-    "@nuxtjs/seo": "^2.1.1",
-    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@nuxt/content": "^3.8.2",
+    "@nuxt/eslint": "^1.10.0",
+    "@nuxt/fonts": "^0.12.1",
+    "@nuxt/icon": "^2.1.0",
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/scripts": "^0.13.0",
+    "@nuxtjs/seo": "^3.2.2",
+    "@nuxtjs/tailwindcss": "^6.14.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.10",
-    "@tailwindcss/typography": "^0.5.16",
-    "eslint-plugin-tailwindcss": "^3.18.0",
-    "nuxt-headlessui": "^1.2.0",
-    "tailwind-scrollbar-hide": "^2.0.0"
+    "@tailwindcss/typography": "^0.5.19",
+    "eslint-plugin-tailwindcss": "^3.18.2",
+    "nuxt-headlessui": "^1.2.1",
+    "tailwind-scrollbar-hide": "^4.0.0"
   },
   "devDependencies": {
-    "nuxt": "^3.15.4",
+    "nuxt": "^4.2.1",
     "vue": "latest",
     "vue-router": "latest"
   },

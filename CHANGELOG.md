@@ -1,5 +1,32 @@
 # Changelog
 
+## Unreleased
+
+### Features
+
+* adopt the Tailwind-aligned screen presets that Nuxt Image v2 ships with; override them from your app if you still need xs/xxl
+
+### Docs
+
+* document how this layer benefits from @nuxt/image v2, with examples for defining providers and restoring custom screen maps
+* outline the recommended `nuxt upgrade` + codemod workflow for migrating projects to Nuxt 4
+
+## [4.0.0](https://github.com/mathix420/nuxt-layer/compare/v3.0.0...v4.0.0) (2025-11-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* require Nuxt 4 runtime instead of Nuxt 3 + compatibility flag
+
+### Features
+
+* document the Nuxt 4 upgrade workflow in the README
+
+### Bug Fixes
+
+* remove `future.compatibilityVersion` flag now that Nuxt 4 is native
+* switch to Nuxt 4 tsconfig project references for better type safety
+
 ## [3.0.0](https://github.com/mathix420/nuxt-layer/compare/v2.0.1...v3.0.0) (2025-02-10)
 
 

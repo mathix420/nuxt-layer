@@ -13,7 +13,6 @@ export default defineNuxtConfig({
   ],
 
   devtools: { enabled: true },
-  future: { compatibilityVersion: 4 },
   compatibilityDate: "2024-04-03",
 
   eslint: {
@@ -28,5 +27,11 @@ export default defineNuxtConfig({
 
   ogImage: {
     zeroRuntime: true,
+  },
+
+  content: {
+    experimental: {
+      nativeSqlite: true,
+    },
   },
 });

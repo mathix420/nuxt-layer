@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+const config = {
   plugins: [
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
@@ -7,3 +7,5 @@ export default {
     require("tailwind-scrollbar-hide"),
   ],
 };
+
+module.exports = config;
