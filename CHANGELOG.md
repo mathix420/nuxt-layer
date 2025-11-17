@@ -11,6 +11,13 @@
 * document how this layer benefits from @nuxt/image v2, with examples for defining providers and restoring custom screen maps
 * outline the recommended `nuxt upgrade` + codemod workflow for migrating projects to Nuxt 4
 
+## [4.0.1](https://github.com/mathix420/nuxt-layer/compare/v4.0.0...v4.0.1) (2025-11-17)
+
+
+### Bug Fixes
+
+* replace eslint-plugin-tailwindcss with eslint-plugin-better-tailwindcss and update related configurations ([17d1f91](https://github.com/mathix420/nuxt-layer/commit/17d1f910b2169e207ec254151bde72868a6f008a))
+
 ## [4.0.0](https://github.com/mathix420/nuxt-layer/compare/v3.0.1...v4.0.0) (2025-11-17)
 
 
