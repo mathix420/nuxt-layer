@@ -1,3 +1,5 @@
+import tailwindcss from "@tailwindcss/vite";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
@@ -7,13 +9,25 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxt/image",
     "nuxt-headlessui",
-    "@nuxtjs/tailwindcss",
     "@nuxt/eslint",
     "@nuxt/icon",
   ],
 
   devtools: { enabled: true },
+  css: ["~/assets/css/main.css"],
+
+  content: {
+    experimental: {
+      nativeSqlite: true,
+    },
+  },
   compatibilityDate: "2024-04-03",
+
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
 
   eslint: {
     config: {
@@ -27,11 +41,5 @@ export default defineNuxtConfig({
 
   ogImage: {
     zeroRuntime: true,
-  },
-
-  content: {
-    experimental: {
-      nativeSqlite: true,
-    },
   },
 });

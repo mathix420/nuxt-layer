@@ -9,11 +9,6 @@ const recommendedNoUnregistered
 
 export default withNuxt(
   {
-    settings: {
-      "better-tailwindcss": {
-        tailwindConfig: "tailwind.config.cjs",
-      },
-    },
     plugins: {
       "better-tailwindcss": betterTailwindcss,
     },

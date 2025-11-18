@@ -8,7 +8,7 @@
 - [`@nuxt/fonts`](https://nuxt.com/modules/fonts)
 - [`@nuxt/image`](https://nuxt.com/modules/image)
 - [`nuxt-headlessui`](https://nuxt.com/modules/headlessui)
-- [`@nuxtjs/tailwindcss`](https://nuxt.com/modules/tailwindcss)
+- [Tailwind CSS](https://tailwindcss.com/) via [`@tailwindcss/vite`](https://github.com/tailwindlabs/tailwindcss/tree/main/packages/%40tailwindcss/vite)
   - [Blank config](/tailwind.config.cjs)
   - With Plugins:
     - [@tailwindcss/typography](https://github.com/tailwindlabs/tailwindcss-typography)
@@ -101,8 +101,8 @@ export default withNuxt(
   cfg,
   {
     settings: {
-      tailwindcss: {
-        config: ".nuxt/tailwind/postcss.mjs",
+      "better-tailwindcss": {
+        tailwindConfig: "tailwind.config.cjs",
       },
     },
   },
