@@ -30,7 +30,7 @@
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.17",
-    "eslint-plugin-better-tailwindcss": "^3.7.10",
+    "eslint-plugin-better-tailwindcss": "^4.0.2",
     "nuxt-headlessui": "^1.2.1",
     "tailwind-scrollbar-hide": "^4.0.0",
     "tailwindcss": "^4.1.17"
